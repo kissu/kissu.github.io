@@ -18,4 +18,5 @@ group :jekyll_plugins do
   # for some reason, livereload is not working if installed as a "plugin" in the
   # config.yml file so I generated a gemfile for it
   gem 'jekyll-livereload'
+  gem 'jekyll-font-awesome-sass'
 end

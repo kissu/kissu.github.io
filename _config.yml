@@ -1,12 +1,15 @@
 # Site settings
 title: kissu
-email: hello@kissu.io
 description: > # this means to ignore newlines until "baseurl:"
   Hi, I'm Konstantin BIFERT, a Junior Fullstack Web Developer fond of making cool apps. :) Looking for somebody to make awesome stuff ? Let's get in touch !
+
 baseurl:  # the subpath of your site, e.g. /blog/
 url:  # the base hostname & protocol for your site
-twitter_username: kissu_io
-github_username:  kissu
+
+email: hello@kissu.io
+accounts:
+  twitter: kissu_io
+  github:  kissu
 
 # Build settings
 markdown: kramdown
@@ -14,3 +17,6 @@ markdown: kramdown
 # Server Config options
 livereload: true
 reload_port: 4001
+
+sass:
+  style: compressed # minify
