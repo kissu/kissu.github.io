@@ -4,6 +4,7 @@
     <h1 id="logo"><a href="{{ site.baseurl }}/">Konstantin BIFERT</a></h1>
     <p>Junior Fullstack Web Developer<br>Making awesome stuff since 2017</p>
   </header>
+
   <nav id="nav">
     <ul>
       <li><a href="{{ site.baseurl }}/">Home</a></li>
@@ -11,11 +12,30 @@
       <li><a href="{{ site.baseurl }}/blog">Blog</a></li>
     </ul>
   </nav>
+
   <footer>
     <ul class="icons">
-      <li><a href="https://twitter.com/{{ page.test }}" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-      <li><a href="https://github.com/{{ site.accounts.github }}" class="icon fa-github"><span class="label">Github</span></a></li>
-      <li><a href="mailto:{{ site.email }}" class="icon fa-envelope"><span class="label">Email</span></a></li>
+      <li>
+        <a href="https://twitter.com/{{ site.accounts.twitter }}" class="icon fa-twitter" target='_blank'>
+          <span class="label">Twitter</span>
+        </a>
+      </li>
+      <li>
+        <a href="https://linkedin.com/in/{{ site.accounts.linkedin }}" class="icon fa-linkedin" target='_blank'>
+          <span class="label">Linkedin</span>
+        </a>
+      </li>
+      <li>
+        <a href="https://github.com/{{ site.accounts.github }}" class="icon fa-github" target='_blank'>
+          <span class="label">Github</span>
+        </a>
+      </li>
+      <li>
+        <a href="mailto:{{ site.email }}" class="icon fa-envelope" target='_blank'>
+          <span class="label">Email</span>
+        </a>
+      </li>
     </ul>
+
   </footer>
 </section>

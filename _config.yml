@@ -9,6 +9,7 @@ url:  # the base hostname & protocol for your site
 email: hello@kissu.io
 accounts:
   twitter: kissu_io
+  linkedin: kissu
   github:  kissu
 
 # Build settings
