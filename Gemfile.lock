@@ -24,6 +24,7 @@ GEM
       pathutil (~> 0.9)
       rouge (>= 1.7, < 3)
       safe_yaml (~> 1.0)
+    jekyll-analytics (0.1.5)
     jekyll-font-awesome-sass (0.1.0)
       font-awesome-sass (~> 4)
       jekyll (>= 2.5, < 4.0)
@@ -59,8 +60,9 @@ PLATFORMS
 
 DEPENDENCIES
   jekyll (~> 3.6.0)
+  jekyll-analytics
   jekyll-font-awesome-sass
   jekyll-livereload
 
 BUNDLED WITH
-   1.16.0.pre.3
+   1.16.0
