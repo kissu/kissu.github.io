@@ -21,8 +21,3 @@ reload_port: 4001
 
 sass:
   style: compressed # minify
-
-jekyll_analytics:
-  GoogleAnalytics:
-    id: UA-109577628-1
-    anonymizeIp: false

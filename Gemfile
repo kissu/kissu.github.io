@@ -19,5 +19,4 @@ group :jekyll_plugins do
   # config.yml file so I generated a gemfile for it
   gem 'jekyll-livereload'
   gem 'jekyll-font-awesome-sass'
-  gem 'jekyll-analytics'
 end
