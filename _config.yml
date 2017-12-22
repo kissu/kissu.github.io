@@ -1,10 +1,12 @@
 # Site settings
 title: kissu
 description: > # this means to ignore newlines until "baseurl:"
-  Hi, I'm Konstantin BIFERT, a Junior Fullstack Web Developer fond of making cool apps. :) Looking for somebody to make awesome stuff ? Let's get in touch !
+  Hi, I'm Konstantin BIFERT, a Junior Fullstack Web Developer fond of making cool
+  apps. :) Looking for somebody to make awesome stuff ? Let's get in touch !
 
-baseurl:  # the subpath of your site, e.g. /blog/
-url:  # the base hostname & protocol for your site
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "kissu.io" # the base hostname & protocol for your site
+permalink: /:title
 
 email: hello@kissu.io
 accounts:
