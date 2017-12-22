@@ -23,3 +23,5 @@ reload_port: 4001
 
 sass:
   style: compressed # minify
+
+plugins: ["jemoji"]
